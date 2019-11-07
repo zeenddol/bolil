@@ -1,17 +1,17 @@
 /*** T H E - M A G I C - O F - O B J E C T - F I T ***/
 /*****************************************************/
-.video-container {
+.iframe-container {
   height: 50vh;
   position: relative;
   overflow: hidden;
 }
 @media (min-width: 600px) {
-  .video-container {
+  .iframe-container {
     height: 100vh;
   }
 }
 
-video {
+iframe {
   -o-object-fit: cover;
      object-fit: cover;
   position: absolute;
@@ -28,11 +28,11 @@ video {
 }
 
 body {
-  background: #333;
-  color: white;
+  background: #000;
+  color: black;
 }
 
-.video-container:after {
+.iframe-container:after {
   content: '';
   display: block;
   height: 100%;
