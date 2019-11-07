@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>쉼, 그 이상의 가치 BOLIL</title>
+	<meta name="description" content="Page Loading Effects: Modern ways of revealing new content" />
+	<meta name="keywords" content="page loading, svg animation, loading effect, fullscreen svg" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="../bolil.ico">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/linkstyles.css" />
+	<script src="js/modernizr.custom.js"></script>
+
+
+
+
+</head>
+<style>
+	.link--urpi::before {
+		-webkit-clip-path: url(#cp_up);
+		clip-path: url(#cp_up);
+	}
+
+	.link--urpi::after {
+		-webkit-clip-path: url(#cp_down);
+		clip-path: url(#cp_down);
+	}
+
+	<link rel="stylesheet"href="./style.css">
+
+</style>
+
+
+<body>
+
+	<p class="credits credits--fixed"></p>
+
+
+	<p class="credits credits--fixed3">쉼, <br> 그 이상의 가치 <br>새로운<br> 프라이빗 공간 </p>
+
+	<p class="credits credits--fixed5">2019</p>
+
+
+	<div class="logo">
+		<p class="credits credits--fixed4">
+
+			<a href="index.html">
+				<img src="./img/logo_og.png" alt="jo" width="6%">
+			</a>
+
+		</p>
+	</div>
+	<!-- Top Navigation -->
+
+
+
+	<section class="columns clearfix">
+
+
+
+
+		<div class="column">
+
+			
+			
+			<div class="logo">
+			
+					<p><a href="./ArticleIntroEffects/index2.html">
+
+							<span class="hov-anim-box">
+								<img src="./img/sad1.png" alt=""  height="70px">
+							</span>
+						</a></p>
+			
+			</div>
+
+
+			<div class="logo">
+			
+					<p><a href="./roomdisplay/index.html">
+
+							<span class="hov-anim-box">
+								<img src="./img/sad2.png" alt=""  height="70px">
+
+							</span>
+						</a></p>
+			
+			</div>			<div class="logo">
+			
+					<p><a href="./background/watchit.html">
+
+							<span class="hov-anim-box">
+								<img src="./img/sad3.png" alt=""  height="70px">
+
+							</span>
+						</a></p>
+			
+			</div>
+
+
+
+
+
+
+
+
+		</div>
+
+	</section>
+
+
+
+
+
+
+
+	<script src="js/demo7.js"></script>
+	<script src="js/classie.js"></script>
+
+
+	<script language="javascript" type="text/javascript">
+		$(window).load(function() {
+			$('#loading').hide();
+		});
+
+	</script>
+
+
+	<script>
+		$(".hov-anim").mouseover(function() {
+				$(this).attr("src", $(this).data("animated"))
+			}),
+			$(".hov-anim").mouseout(function() {
+				$(this).attr("src", $(this).data("static"))
+			});
+
+	</script>
+</body>
+
+</html>
